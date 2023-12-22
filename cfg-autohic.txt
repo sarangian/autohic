@@ -1,26 +1,26 @@
 # Paths and system Settings
 JOB_NAME=AutoHiC
-AutoHiC_DIR=/home/ubuntu/AutoHiC
-RESULT_DIR=/home/ubuntu/result
-N_CPU=40
+AutoHiC_DIR=/opt/autohic
+RESULT_DIR=/work/result
+N_CPU=48
 
 # Data options
 SPECIES_NAME=At
 REFERENCE_GENOME=/home/ubuntu/at/references/at.fa
 
 # Juicer options
-JUICER_DIR=/home/ubuntu/HiC/juicer
+JUICER_DIR=/opt/autohic/juicer
 FASTQ_DIR=/home/ubuntu/at/rawdata
 ENZYME=DpnII
 
 
 # 3D-DNA options
-TD_DNA_DIR=/home/ubuntu/3d-dna
+TD_DNA_DIR=/opt/autohic/3d-dna
 NUMBER_OF_EDIT_ROUNDS=2
 
 # AutoHiC options
-ERROR_PRETRAINED_MODEL=/home/ubuntu/downloads/error_model.pth
-CHR_PRETRAINED_MODEL=/home/ubuntu/downloads/chr_model.pth
+ERROR_PRETRAINED_MODEL=/opt/autohic/model/error_model.pth
+CHR_PRETRAINED_MODEL=/opt/autohic/model/chr_model.pth
 
 TRANSLOCATION_ADJUST=True
 INVERSION_ADJUST=True
