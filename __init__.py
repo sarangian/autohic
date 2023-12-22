@@ -1,4 +1,4 @@
-#!/usr/scripts/env python
+#!/opt/conda/envs/autohic/bin/python
 # encoding: utf-8 
 
 """
